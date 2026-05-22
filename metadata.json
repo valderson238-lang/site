@@ -1,0 +1,6 @@
+{
+  "name": "Alicy's Roupas E Acessórios",
+  "description": "Premium landing page for Alicy's Roupas E Acessórios, featuring a bento grid showcase, curated lookbooks, and custom WhatsApp conversion pathways.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
