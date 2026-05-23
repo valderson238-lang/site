@@ -321,58 +321,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* MARQUEE / FAIXA DE REGISTRO E AUTORIDADE */}
-      <section id="authority-marquee" className="bg-gray-950/90 py-6 border-y border-gray-900/60 overflow-hidden relative z-10">
-        <div id="marquee-wrapper" className="relative w-full overflow-hidden flex whitespace-nowrap">
-          <div id="marquee-items" className="animate-marquee flex select-none text-[11px] lg:text-xs font-bold font-mono tracking-[0.25em] text-gray-400 uppercase items-center">
-            
-            {/* Set 1 */}
-            <span className="mx-8 flex items-center gap-2">
-              <Sparkles className="w-3.5 h-3.5 text-[#C19A6B]" />
-              MODA QUE INSPIRA, ATENDIMENTO QUE CONQUISTA
-            </span>
-            <span className="text-gray-700">|</span>
-            <span className="mx-8 flex items-center gap-2">
-              <MapPin className="w-3.5 h-3.5 text-[#C19A6B]" />
-              LOJA FÍSICA EM CRUZ, CEARÁ (CENTRO)
-            </span>
-            <span className="text-gray-700">|</span>
-            <span className="mx-12 flex items-center gap-2">
-              <ShieldCheck className="w-3.5 h-3.5 text-[#C19A6B]" />
-              PEDIDOS ON-LINE SEGUROS COM ENVIO IMEDIATO
-            </span>
-            <span className="text-gray-700">|</span>
-            <span className="mx-8 flex items-center gap-2">
-              <Instagram className="w-3.5 h-3.5 text-[#C19A6B]" />
-              COMUNIDADE VIP @USEALICYS
-            </span>
-            <span className="text-gray-700">|</span>
-
-            {/* Set 2 (for continuous marquee) */}
-            <span className="mx-8 flex items-center gap-2">
-              <Sparkles className="w-3.5 h-3.5 text-[#C19A6B]" />
-              MODA QUE INSPIRA, ATENDIMENTO QUE CONQUISTA
-            </span>
-            <span className="text-gray-700">|</span>
-            <span className="mx-8 flex items-center gap-2">
-              <MapPin className="w-3.5 h-3.5 text-[#C19A6B]" />
-              LOJA FÍSICA EM CRUZ, CEARÁ (CENTRO)
-            </span>
-            <span className="text-gray-700">|</span>
-            <span className="mx-12 flex items-center gap-2">
-              <ShieldCheck className="w-3.5 h-3.5 text-[#C19A6B]" />
-              PEDIDOS ON-LINE SEGUROS COM ENVIO IMEDIATO
-            </span>
-            <span className="text-gray-700">|</span>
-            <span className="mx-8 flex items-center gap-2">
-              <Instagram className="w-3.5 h-3.5 text-[#C19A6B]" />
-              COMUNIDADE VIP @USEALICYS
-            </span>
-            <span className="text-gray-700">|</span>
-          </div>
-        </div>
-      </section>
-
       {/* DIFERENCIAIS (Bento Grid) */}
       <section id="diferenciais" className="py-24 max-w-7xl mx-auto px-4 md:px-8 relative z-10 scroll-mt-20">
         <div id="diferenciais-header" className="text-center max-w-3xl mx-auto mb-16">
