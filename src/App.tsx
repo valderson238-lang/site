@@ -169,20 +169,6 @@ export default function App() {
         {/* Content Container */}
         <div id="hero-content" className="relative z-10 max-w-7xl mx-auto w-full px-4 md:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div id="hero-text-block" className="lg:col-span-7 flex flex-col items-start space-y-6 md:space-y-8 text-left">
-            
-            {/* Elegant luxury badge with stagger */}
-            <motion.div 
-              id="hero-badge"
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="inline-flex items-center space-x-2 bg-gray-950/70 border border-[#C19A6B]/30 backdrop-blur-md px-4 py-1.5 rounded-full"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-[#C19A6B] animate-pulse" />
-              <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] text-[#C19A6B]">
-                Coleção Exclusiva Outono / Inverno 2026
-              </span>
-            </motion.div>
 
             {/* Grand Headline with dramatical tracking */}
             <motion.h1 
