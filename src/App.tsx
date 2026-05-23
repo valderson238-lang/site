@@ -328,11 +328,6 @@ export default function App() {
             
             {/* Set 1 */}
             <span className="mx-8 flex items-center gap-2">
-              <Star className="w-3.5 h-3.5 text-[#C19A6B] fill-current" />
-              4.226 AVALIAÇÕES NO GOOGLE (NOTA 4.9★)
-            </span>
-            <span className="text-gray-700">|</span>
-            <span className="mx-8 flex items-center gap-2">
               <Sparkles className="w-3.5 h-3.5 text-[#C19A6B]" />
               MODA QUE INSPIRA, ATENDIMENTO QUE CONQUISTA
             </span>
@@ -354,11 +349,6 @@ export default function App() {
             <span className="text-gray-700">|</span>
 
             {/* Set 2 (for continuous marquee) */}
-            <span className="mx-8 flex items-center gap-2">
-              <Star className="w-3.5 h-3.5 text-[#C19A6B] fill-current" />
-              4.226 AVALIAÇÕES NO GOOGLE (NOTA 4.9★)
-            </span>
-            <span className="text-gray-700">|</span>
             <span className="mx-8 flex items-center gap-2">
               <Sparkles className="w-3.5 h-3.5 text-[#C19A6B]" />
               MODA QUE INSPIRA, ATENDIMENTO QUE CONQUISTA
