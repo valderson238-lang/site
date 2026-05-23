@@ -243,35 +243,7 @@ export default function App() {
                 <span>Consultoria VIP</span>
               </a>
             </motion.div>
-
-            {/* Quick trust counts */}
-            <motion.div 
-              id="hero-trust-counts"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="flex items-center space-x-6 pt-4 border-t border-gray-900/30 w-full"
-            >
-              <div id="trust-reviews" className="flex items-center space-x-3">
-                <div id="stars-row" className="flex text-[#C19A6B]">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-current" />
-                  ))}
-                </div>
-                <div>
-                  <p className="text-white font-bold text-sm tracking-wide">4.226+</p>
-                  <p className="text-[10px] text-gray-400 uppercase tracking-widest">Avaliações no Google</p>
-                </div>
-              </div>
-              
-              <div id="trust-badge" className="hidden sm:flex items-center space-x-2">
-                <Award className="w-5 h-5 text-[#C19A6B]" />
-                <div>
-                  <p className="text-white font-bold text-xs tracking-wide uppercase">Destaque Regional</p>
-                  <p className="text-[10px] text-gray-400 uppercase tracking-widest">Vale do Acaraú, CE</p>
-                </div>
-              </div>
-            </motion.div>
+            
           </div>
 
           {/* Hero right side teaser cards */}
