@@ -446,12 +446,12 @@ export default function App() {
               </div>
               <div>
                 <p className="text-[10px] text-gray-400 uppercase tracking-wider">Domingo</p>
-                <p className="text-sm text-gray-500 font-medium mt-1">Fechador temporariamente</p>
+                <p className="text-sm text-gray-500 font-medium mt-1">Fechado</p>
               </div>
             </div>
 
             <p className="text-xs text-gray-400 font-light leading-snug">
-              📍 Agende sua visita ou solicite delivery especial no conforto do seu lar.
+              📍 Agende sua visita ou solicite frete especial no conforto do seu lar.
             </p>
           </div>
 
@@ -657,7 +657,7 @@ export default function App() {
                 className="inline-flex items-center justify-center space-x-2 bg-transparent border border-gray-800 hover:border-[#C19A6B] text-gray-300 hover:text-white font-bold tracking-wider text-xs uppercase px-8 py-4.5 rounded-full transition-colors"
               >
                 <Phone className="w-4 h-4 text-[#C19A6B]" />
-                <span>Solicitar Delivery</span>
+                <span>Solicitar Frete</span>
               </a>
             </div>
 
