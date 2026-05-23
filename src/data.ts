@@ -6,42 +6,42 @@ export const LOOKBOOK_ITEMS: LookbookItem[] = [
     title: 'Vestido Eloise',
     category: 'Golden Hour',
     price: 'R$ 79,00',
-    image: '/src/ativos/imagens/vestido.jpg'
+    image: '/vestido.jpg'
   },
   {
     id: 'al-2',
     title: 'Blusa Tricô',
     category: 'Casual Chic',
     price: 'R$ 99,00',
-    image: '/src/ativos/imagens/vestido2.jpg'
+    image: '/vestido2.jpg'
   },
   {
     id: 'al-3',
     title: 'Macacão Carolyn',
     category: 'Casual Chic',
     price: 'R$ 324,00',
-    image: '/src/ativos/imagens/vestido3.jpg'
+    image: '/vestido3.jpg'
   },
   {
     id: 'al-4',
     title: 'Body Carla',
     category: 'Casual Chic',
     price: 'R$ 39,90',
-    image: '/src/ativos/imagens/vestido4.jpg'
+    image: '/vestido4.jpg'
   },
   {
     id: 'al-5',
     title: 'Vestido Tina',
     category: 'Night Out',
     price: 'R$ 139,00',
-    image: '/src/ativos/imagens/vestido5.jpg'
+    image: '/vestido5.jpg'
   },
   {
     id: 'al-6',
     title: 'Tshirt',
     category: 'Night Out',
     price: 'R$ 72,00',
-    image: '/src/ativos/imagens/vestido6.jpg'
+    image: '/vestido6.jpg'
   }
 ];
 
